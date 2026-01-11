@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Settings"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:layout_gravity="center"/>
+
+<!-- Appearance -->
+<TextView
+    android:layout_marginTop="24dp"
+    android:text="Appearance"
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+<Switch
+    android:id="@+id/switchDarkMode"
+    android:text="Dark Mode"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<!-- Data Management -->
+<TextView
+    android:layout_marginTop="24dp"
+    android:text="Data Management"
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+<Button
+    android:id="@+id/btnBackup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Backup to Device (Export)"
+    android:layout_marginTop="8dp"/>
+
+</LinearLayout>
