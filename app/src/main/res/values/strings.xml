@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">groupassignment_ketupat</string>
+    <string name="app_name">group-assignment</string>
+    <string-array name="sort_options">
+        <item>Default</item>
+        <item>Title (A-Z)</item>
+        <item>Status</item>
+    </string-array>
+
 </resources>
